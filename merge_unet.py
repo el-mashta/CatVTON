@@ -38,7 +38,7 @@ def merge_models():
     # Note: The original repo 'stable-diffusion-v1-5/stable-diffusion-inpainting' is no longer available.
     # The project uses 'booksforcharlie/stable-diffusion-inpainting' as a replacement.
     # We construct the path to the most likely snapshot directory.
-    BASE_MODEL_ID = "booksforcharlie/stable-diffusion-inpainting"
+    BASE_MODEL_ID = "stable-diffusion-v1-5/stable-diffusion-inpainting"
     CATVTON_MODEL_ID = "zhengchong/CatVTON"
 
     base_model_path = os.path.join(HF_HOME, "hub", f"models--{BASE_MODEL_ID.replace('/', '--')}")
