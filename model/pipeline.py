@@ -43,6 +43,8 @@ class CatVTONPipeline:
         #     self.feature_extractor = CLIPImageProcessor.from_pretrained(base_ckpt, subfolder="feature_extractor")
         #     self.safety_checker = StableDiffusionSafetyChecker.from_pretrained(base_ckpt, subfolder="safety_checker").to(device, dtype=weight_dtype)
         self.unet = UNet2DConditionModel.from_pretrained(unet_path).to(device, dtype=weight_dtype)
+        # CRITICAL: Re-apply the adapter to disable cross-attention after loading the merged model.
+        init_adapter(self.unet, cross_attn_cls=SkipAttnProcessor)
         # Pytorch 2.0 Compile
         if compile:
             self.unet = torch.compile(self.unet)
