@@ -22,10 +22,9 @@ from utils import (compute_vae_encodings, numpy_to_pil, prepare_image,
 
 class CatVTONPipeline:
     def __init__(
-        self, 
-        base_ckpt, 
-        attn_ckpt, 
-        attn_ckpt_version="mix",
+        self,
+        unet_path,
+        base_ckpt,
         weight_dtype=torch.float32,
         device='cuda',
         compile=False,
@@ -43,10 +42,7 @@ class CatVTONPipeline:
         # if not skip_safety_check:
         #     self.feature_extractor = CLIPImageProcessor.from_pretrained(base_ckpt, subfolder="feature_extractor")
         #     self.safety_checker = StableDiffusionSafetyChecker.from_pretrained(base_ckpt, subfolder="safety_checker").to(device, dtype=weight_dtype)
-        self.unet = UNet2DConditionModel.from_pretrained(base_ckpt, subfolder="unet").to(device, dtype=weight_dtype)
-        init_adapter(self.unet, cross_attn_cls=SkipAttnProcessor)  # Skip Cross-Attention
-        self.attn_modules = get_trainable_module(self.unet, "attention")
-        self.auto_attn_ckpt_load(attn_ckpt, attn_ckpt_version)
+        self.unet = UNet2DConditionModel.from_pretrained(unet_path).to(device, dtype=weight_dtype)
         # Pytorch 2.0 Compile
         if compile:
             self.unet = torch.compile(self.unet)
@@ -57,18 +53,7 @@ class CatVTONPipeline:
             torch.set_float32_matmul_precision("high")
             torch.backends.cuda.matmul.allow_tf32 = True
 
-    def auto_attn_ckpt_load(self, attn_ckpt, version):
-        sub_folder = {
-            "mix": "mix-48k-1024",
-            "vitonhd": "vitonhd-16k-512",
-            "dresscode": "dresscode-16k-512",
-        }[version]
-        if os.path.exists(attn_ckpt):
-            load_checkpoint_in_model(self.attn_modules, os.path.join(attn_ckpt, sub_folder, 'attention'))
-        else:
-            repo_path = snapshot_download(repo_id=attn_ckpt)
-            print(f"Downloaded {attn_ckpt} to {repo_path}")
-            load_checkpoint_in_model(self.attn_modules, os.path.join(repo_path, sub_folder, 'attention'))
+    
             
     def run_safety_checker(self, image):
         if self.safety_checker is None:
@@ -218,14 +203,17 @@ class CatVTONPipeline:
 
 
 class CatVTONPix2PixPipeline(CatVTONPipeline):
-    def auto_attn_ckpt_load(self, attn_ckpt, version):
-        # TODO: Temperal fix for the model version
-        if os.path.exists(attn_ckpt):
-            load_checkpoint_in_model(self.attn_modules, os.path.join(attn_ckpt, version, 'attention'))
-        else:
-            repo_path = snapshot_download(repo_id=attn_ckpt)
-            print(f"Downloaded {attn_ckpt} to {repo_path}")
-            load_checkpoint_in_model(self.attn_modules, os.path.join(repo_path, version, 'attention'))
+    def __init__(
+        self,
+        unet_path,
+        base_ckpt,
+        weight_dtype=torch.float32,
+        device='cuda',
+        compile=False,
+        skip_safety_check=False,
+        use_tf32=True,
+    ):
+        super().__init__(unet_path, base_ckpt, weight_dtype, device, compile, skip_safety_check, use_tf32)
     
     def check_inputs(self, image, condition_image, width, height):
         if isinstance(image, torch.Tensor) and isinstance(condition_image, torch.Tensor) and isinstance(torch.Tensor):
