@@ -1,0 +1,233 @@
+(venv) root@869f6ae60d31:/runpod-volume# ls -laR models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/:
+total 9776
+drwxrwxrwx 5 root root 3001418 Sep 11 22:29 .
+drwxrwxrwx 5 root root 3001550 Sep 11 22:18 ..
+drwxrwxrwx 2 root root 3001418 Sep 11 22:29 blobs
+drwxrwxrwx 2 root root    4000 Sep 11 22:16 refs
+drwxrwxrwx 3 root root 1000174 Sep 11 22:16 snapshots
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/blobs:
+total 14879152
+drwxrwxrwx 2 root root    3001418 Sep 11 22:29 .
+drwxrwxrwx 5 root root    3001418 Sep 11 22:29 ..
+-rw-rw-rw- 1 root root  246187076 Sep 11 22:28 05eee911f195625deeab86f0b22b115d7d8bc3adbfc1404f03557f7e4e6a8fd7
+-rw-rw-rw- 1 root root  608018440 Sep 11 22:28 08902f19b1cfebd7c989f152fc0507bef6898c706a91d666509383122324b511
+-rw-rw-rw- 1 root root 1216061799 Sep 11 22:28 193490b58ef62739077262e833bf091c66c29488058681ac25cf7df3d8190974
+-rw-rw-rw- 1 root root  334707217 Sep 11 22:28 1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5
+-rw-rw-rw- 1 root root        548 Sep 11 22:16 1dda6689b6bed16a8b69f3df22fdc06983de68da
+-rw-rw-rw- 1 root root  608103564 Sep 11 22:28 22ba87205445ad5def13e54919b038dcfb7321ec1c3f4b12487d4fba6036125f
+-rw-rw-rw- 1 root root 1719154104 Sep 11 22:28 24b788b4a777748377cc20364eea4ae113c8c42f4468c16bc8c02fdae5492af9
+-rw-rw-rw- 1 root root        552 Sep 11 22:16 25c63fb3a9303446a3c9bae3a90afc818641984f
+-rw-rw-rw- 1 root root        472 Sep 11 22:16 2c2130b544c0c5a72d5d00da071ba130a9800fb2
+-rw-rw-rw- 1 root root        313 Sep 11 22:16 3a6a9a51b8ea8eb2b0c55e2811e608f2eca3ffd2
+-rw-rw-rw- 1 root root        748 Sep 11 22:16 432f2ef043de459ffb66e7e49d22131fc596a5d5
+-rw-rw-rw- 1 root root    1059962 Sep 11 22:16 469be27c5c010538f845f518c4f5e8574c78f7c8
+-rw-rw-rw- 1 root root        617 Sep 11 22:16 4d3e873ab5086ad989f407abd50fdce66db8d657
+-rw-rw-rw- 1 root root  167335342 Sep 11 22:28 4fbcf0ebe55a0984f5a5e00d8c4521d52359af7229bb4d81890039d2aa16dd7c
+-rw-rw-rw- 1 root root        342 Sep 11 22:16 5294955ff7801083f720b34b55d0f1f51313c5c5
+-rw-rw-rw- 1 root root        806 Sep 11 22:16 5ba7bf706515bc60487ad0e1816b4929b82542d6
+-rw-rw-rw- 1 root root      15107 Sep 11 22:16 65e886af144b9d8bb5bbb4ca040d2b013fd45f12
+-rw-rw-rw- 1 root root     524619 Sep 11 22:16 76e821f1b6f0a9709293c3b6b51ed90980b3166b
+-rw-rw-rw- 1 root root  492305335 Sep 11 22:28 770a47a9ffdcfda0b05506a7888ed714d06131d60267e6cf52765d61cf59fd67
+-rw-rw-rw- 1 root root  246144864 Sep 11 22:28 77795e2023adcf39bc29a884661950380bd093cf0750a966d473d1718dc9ef4e
+-rw-rw-rw- 1 root root       4777 Sep 11 22:16 9cfcfb854009626cec64993a947316d42eb255ea
+-rw-rw-rw- 1 root root       1753 Sep 11 22:16 9dbaac88fc97eeec9181a953f635e45af36d3e48
+-rw-rw-rw- 1 root root 1719356693 Sep 11 22:28 a71dec5f3ee7004b84b22c26b6d8f6681aea1c038a75ee4b9dd68c6b3401d8d6
+-rw-rw-rw- 1 root root 3438412325 Sep 11 22:29 af4e22eecaca7a1c5dd849f51924effdccc1f765141e898c323b775cc80a43b3
+-rw-rw-rw- 1 root root  167405651 Sep 11 22:28 b7643b3e40b9f128eda5fe174fea73c3ef3903562651fb344a79439709c2e503
+-rw-rw-rw- 1 root root 4265437280 Sep 11 22:28 c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/refs:
+total 2936
+drwxrwxrwx 2 root root    4000 Sep 11 22:16 .
+drwxrwxrwx 5 root root 3001418 Sep 11 22:29 ..
+-rw-rw-rw- 1 root root      40 Sep 11 22:28 main
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots:
+total 4886
+drwxrwxrwx 3 root root 1000174 Sep 11 22:16 .
+drwxrwxrwx 5 root root 3001418 Sep 11 22:29 ..
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 8a4288a76071f7280aedbdb3253bdb9e9d5d84bb
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb:
+total 2105
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 .
+drwxrwxrwx 3 root root 1000174 Sep 11 22:16 ..
+lrwxrwxrwx 1 root root      52 Sep 11 22:16 .gitattributes -> ../../blobs/9dbaac88fc97eeec9181a953f635e45af36d3e48
+lrwxrwxrwx 1 root root      52 Sep 11 22:16 README.md -> ../../blobs/65e886af144b9d8bb5bbb4ca040d2b013fd45f12
+lrwxrwxrwx 1 root root      52 Sep 11 22:16 config.json -> ../../blobs/432f2ef043de459ffb66e7e49d22131fc596a5d5
+drwxrwxrwx 2 root root    5500 Sep 11 22:16 feature_extractor
+lrwxrwxrwx 1 root root      52 Sep 11 22:16 model_index.json -> ../../blobs/1dda6689b6bed16a8b69f3df22fdc06983de68da
+drwxrwxrwx 2 root root   29200 Sep 11 22:28 safety_checker
+drwxrwxrwx 2 root root    5500 Sep 11 22:16 scheduler
+lrwxrwxrwx 1 root root      76 Sep 11 22:28 sd-v1-5-inpainting.ckpt -> ../../blobs/c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19
+drwxrwxrwx 2 root root   29200 Sep 11 22:28 text_encoder
+drwxrwxrwx 2 root root   22000 Sep 11 22:16 tokenizer
+drwxrwxrwx 2 root root   29200 Sep 11 22:29 unet
+drwxrwxrwx 2 root root   29200 Sep 11 22:28 vae
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/feature_extractor:
+total 983
+drwxrwxrwx 2 root root    5500 Sep 11 22:16 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 preprocessor_config.json -> ../../../blobs/5294955ff7801083f720b34b55d0f1f51313c5c5
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/safety_checker:
+total 1008
+drwxrwxrwx 2 root root   29200 Sep 11 22:28 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 config.json -> ../../../blobs/9cfcfb854009626cec64993a947316d42eb255ea
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 model.fp16.safetensors -> ../../../blobs/08902f19b1cfebd7c989f152fc0507bef6898c706a91d666509383122324b511
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 pytorch_model.bin -> ../../../blobs/193490b58ef62739077262e833bf091c66c29488058681ac25cf7df3d8190974
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 pytorch_model.fp16.bin -> ../../../blobs/22ba87205445ad5def13e54919b038dcfb7321ec1c3f4b12487d4fba6036125f
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/scheduler:
+total 983
+drwxrwxrwx 2 root root    5500 Sep 11 22:16 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 scheduler_config.json -> ../../../blobs/3a6a9a51b8ea8eb2b0c55e2811e608f2eca3ffd2
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/text_encoder:
+total 1008
+drwxrwxrwx 2 root root   29200 Sep 11 22:28 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 config.json -> ../../../blobs/4d3e873ab5086ad989f407abd50fdce66db8d657
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 model.fp16.safetensors -> ../../../blobs/77795e2023adcf39bc29a884661950380bd093cf0750a966d473d1718dc9ef4e
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 pytorch_model.bin -> ../../../blobs/770a47a9ffdcfda0b05506a7888ed714d06131d60267e6cf52765d61cf59fd67
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 pytorch_model.fp16.bin -> ../../../blobs/05eee911f195625deeab86f0b22b115d7d8bc3adbfc1404f03557f7e4e6a8fd7
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/tokenizer:
+total 1001
+drwxrwxrwx 2 root root   22000 Sep 11 22:16 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 merges.txt -> ../../../blobs/76e821f1b6f0a9709293c3b6b51ed90980b3166b
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 special_tokens_map.json -> ../../../blobs/2c2130b544c0c5a72d5d00da071ba130a9800fb2
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 tokenizer_config.json -> ../../../blobs/5ba7bf706515bc60487ad0e1816b4929b82542d6
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 vocab.json -> ../../../blobs/469be27c5c010538f845f518c4f5e8574c78f7c8
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/unet:
+total 1008
+drwxrwxrwx 2 root root   29200 Sep 11 22:29 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 config.json -> ../../../blobs/432f2ef043de459ffb66e7e49d22131fc596a5d5
+lrwxrwxrwx 1 root root      79 Sep 11 22:29 diffusion_pytorch_model.bin -> ../../../blobs/af4e22eecaca7a1c5dd849f51924effdccc1f765141e898c323b775cc80a43b3
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 diffusion_pytorch_model.fp16.bin -> ../../../blobs/a71dec5f3ee7004b84b22c26b6d8f6681aea1c038a75ee4b9dd68c6b3401d8d6
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 diffusion_pytorch_model.fp16.safetensors -> ../../../blobs/24b788b4a777748377cc20364eea4ae113c8c42f4468c16bc8c02fdae5492af9
+
+models/hub/models--stable-diffusion-v1-5--stable-diffusion-inpainting/snapshots/8a4288a76071f7280aedbdb3253bdb9e9d5d84bb/vae:
+total 1008
+drwxrwxrwx 2 root root   29200 Sep 11 22:28 .
+drwxrwxrwx 9 root root 1000174 Sep 11 22:28 ..
+lrwxrwxrwx 1 root root      55 Sep 11 22:16 config.json -> ../../../blobs/25c63fb3a9303446a3c9bae3a90afc818641984f
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 diffusion_pytorch_model.bin -> ../../../blobs/1b134cded8eb78b184aefb8805b6b572f36fa77b255c483665dda931fa0130c5
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 diffusion_pytorch_model.fp16.bin -> ../../../blobs/b7643b3e40b9f128eda5fe174fea73c3ef3903562651fb344a79439709c2e503
+lrwxrwxrwx 1 root root      79 Sep 11 22:28 diffusion_pytorch_model.fp16.safetensors -> ../../../blobs/4fbcf0ebe55a0984f5a5e00d8c4521d52359af7229bb4d81890039d2aa16dd7c
+(venv) root@869f6ae60d31:/runpod-volume# ls -laR models/hub/models--zhengchong--CatVTON/                               
+models/hub/models--zhengchong--CatVTON/:
+total 8877
+drwxrwxrwx 5 root root 3000132 Sep 11 22:31 .
+drwxrwxrwx 5 root root 3001550 Sep 11 22:18 ..
+drwxrwxrwx 2 root root 3000132 Sep 11 22:31 blobs
+drwxrwxrwx 2 root root    4000 Sep 11 22:18 refs
+drwxrwxrwx 3 root root   82800 Sep 11 22:18 snapshots
+
+models/hub/models--zhengchong--CatVTON/blobs:
+total 1395493
+drwxrwxrwx 2 root root   3000132 Sep 11 22:31 .
+drwxrwxrwx 5 root root   3000132 Sep 11 22:31 ..
+-rw-rw-rw- 1 root root       182 Sep 11 22:18 1776bb349350ff04eeda7e7b0bcde1be666d0095
+-rw-rw-rw- 1 root root 267449349 Sep 11 22:31 24fa3254ceeb74c8435458994a64b522fb439a3635b7b86ff470457e0413da00
+-rw-rw-rw- 1 root root      9663 Sep 11 22:18 6d57470c093629c0f55764926f318e04c96a134a
+-rw-rw-rw- 1 root root 198303368 Sep 11 22:31 915df7bf19a33bee36a28d5f9ceaef1e2267c47526f98ca9e4c49e90ae5f0fd0
+-rw-rw-rw- 1 root root 198303368 Sep 11 22:31 a1fc093f1b6744623079e6f4e7313411f524e388c4b7467df1e0e7f577cba23a
+-rw-rw-rw- 1 root root      1519 Sep 11 22:18 a6344aac8c09253b3b630fb776ae94478aa0275b
+-rw-rw-rw- 1 root root 255757821 Sep 11 22:31 b8a7382001b16e453bad95ca9dbc68ae8f2b839b304cf90eaf5c27fbdb4dae91
+-rw-rw-rw- 1 root root  37406344 Sep 11 22:31 b9cfb1a2a2a88e332c454115b80a3989b4d053443e4b5483083a6a92321b31db
+-rw-rw-rw- 1 root root      1518 Sep 11 22:18 c1134e1786254aff2161d2acc8dd7e9035ee5989
+-rw-rw-rw- 1 root root 198303368 Sep 11 22:31 d65a6c64a9bc48e8009a0006d5272b9332c1077c9c2a74302cbac9f256e84cbf
+-rw-rw-rw- 1 root root         0 Sep 11 22:18 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+-rw-rw-rw- 1 root root 267445237 Sep 11 22:31 e9d7c91ce3b4e7133df56b599fc817b533e3439c5e8d282a59126d2fda339a2a
+
+models/hub/models--zhengchong--CatVTON/refs:
+total 2935
+drwxrwxrwx 2 root root    4000 Sep 11 22:18 .
+drwxrwxrwx 5 root root 3000132 Sep 11 22:31 ..
+-rw-rw-rw- 1 root root      40 Sep 11 22:31 main
+
+models/hub/models--zhengchong--CatVTON/snapshots:
+total 3092
+drwxrwxrwx 3 root root   82800 Sep 11 22:18 .
+drwxrwxrwx 5 root root 3000132 Sep 11 22:31 ..
+drwxrwxrwx 8 root root   82800 Sep 11 22:18 2969fcf85fe62f2036605716f0b56f0b81d01d79
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79:
+total 231
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 .
+drwxrwxrwx 3 root root 82800 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root    52 Sep 11 22:18 .gitattributes -> ../../blobs/a6344aac8c09253b3b630fb776ae94478aa0275b
+drwxrwxrwx 2 root root 18900 Sep 11 22:31 DensePose
+lrwxrwxrwx 1 root root    52 Sep 11 22:18 README.md -> ../../blobs/6d57470c093629c0f55764926f318e04c96a134a
+drwxrwxrwx 2 root root 15800 Sep 11 22:31 SCHP
+lrwxrwxrwx 1 root root    52 Sep 11 22:18 config.json -> ../../blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+drwxrwxrwx 3 root root  8200 Sep 11 22:18 dresscode-16k-512
+drwxrwxrwx 2 root root  7900 Sep 11 22:31 flux-lora
+drwxrwxrwx 3 root root  8200 Sep 11 22:18 mix-48k-1024
+drwxrwxrwx 3 root root  8200 Sep 11 22:18 vitonhd-16k-512
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/DensePose:
+total 101
+drwxrwxrwx 2 root root 18900 Sep 11 22:31 .
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root    55 Sep 11 22:18 Base-DensePose-RCNN-FPN.yaml -> ../../../blobs/c1134e1786254aff2161d2acc8dd7e9035ee5989
+lrwxrwxrwx 1 root root    55 Sep 11 22:18 densepose_rcnn_R_50_FPN_s1x.yaml -> ../../../blobs/1776bb349350ff04eeda7e7b0bcde1be666d0095
+lrwxrwxrwx 1 root root    79 Sep 11 22:31 model_final_162be9.pkl -> ../../../blobs/b8a7382001b16e453bad95ca9dbc68ae8f2b839b304cf90eaf5c27fbdb4dae91
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/SCHP:
+total 98
+drwxrwxrwx 2 root root 15800 Sep 11 22:31 .
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root    79 Sep 11 22:31 exp-schp-201908261155-lip.pth -> ../../../blobs/24fa3254ceeb74c8435458994a64b522fb439a3635b7b86ff470457e0413da00
+lrwxrwxrwx 1 root root    79 Sep 11 22:31 exp-schp-201908301523-atr.pth -> ../../../blobs/e9d7c91ce3b4e7133df56b599fc817b533e3439c5e8d282a59126d2fda339a2a
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/dresscode-16k-512:
+total 98
+drwxrwxrwx 3 root root  8200 Sep 11 22:18 .
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 ..
+drwxrwxrwx 2 root root  8200 Sep 11 22:31 attention
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/dresscode-16k-512/attention:
+total 18
+drwxrwxrwx 2 root root 8200 Sep 11 22:31 .
+drwxrwxrwx 3 root root 8200 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root   82 Sep 11 22:31 model.safetensors -> ../../../../blobs/d65a6c64a9bc48e8009a0006d5272b9332c1077c9c2a74302cbac9f256e84cbf
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/flux-lora:
+total 90
+drwxrwxrwx 2 root root  7900 Sep 11 22:31 .
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root    79 Sep 11 22:31 pytorch_lora_weights.safetensors -> ../../../blobs/b9cfb1a2a2a88e332c454115b80a3989b4d053443e4b5483083a6a92321b31db
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/mix-48k-1024:
+total 98
+drwxrwxrwx 3 root root  8200 Sep 11 22:18 .
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 ..
+drwxrwxrwx 2 root root  8200 Sep 11 22:31 attention
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/mix-48k-1024/attention:
+total 18
+drwxrwxrwx 2 root root 8200 Sep 11 22:31 .
+drwxrwxrwx 3 root root 8200 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root   82 Sep 11 22:31 model.safetensors -> ../../../../blobs/a1fc093f1b6744623079e6f4e7313411f524e388c4b7467df1e0e7f577cba23a
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/vitonhd-16k-512:
+total 98
+drwxrwxrwx 3 root root  8200 Sep 11 22:18 .
+drwxrwxrwx 8 root root 82800 Sep 11 22:18 ..
+drwxrwxrwx 2 root root  8200 Sep 11 22:31 attention
+
+models/hub/models--zhengchong--CatVTON/snapshots/2969fcf85fe62f2036605716f0b56f0b81d01d79/vitonhd-16k-512/attention:
+total 18
+drwxrwxrwx 2 root root 8200 Sep 11 22:31 .
+drwxrwxrwx 3 root root 8200 Sep 11 22:18 ..
+lrwxrwxrwx 1 root root   82 Sep 11 22:31 model.safetensors -> ../../../../blobs/915df7bf19a33bee36a28d5f9ceaef1e2267c47526f98ca9e4c49e90ae5f0fd0
